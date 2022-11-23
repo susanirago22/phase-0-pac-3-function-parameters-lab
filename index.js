@@ -12,8 +12,8 @@ function introductionWithLanguageOptional(name, language = "JavaScript")
     return (`Hi, my name is ${name} and I am learning to program in ${language}.`);
 }
 
-introduction("Aki");
-introductionWithLanguage("Aki","Amber.js");
-introductionWithLanguage("Samip","React");
-introductionWithLanguageOptional("Gracie");
-introductionWithLanguageOptional("Gracie", "Python");
+introduction("joy");
+introductionWithLanguage("joy","python");
+introductionWithLanguage("susan","javascript");
+introductionWithLanguageOptional("juliet","java");
+introductionWithLanguageOptional("juliet","SQL");
